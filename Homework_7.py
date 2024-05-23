@@ -1,0 +1,18 @@
+my_dict = {"Игорь":1987, "Анлрей":1979, "Сергей":2001, "Юра":1972, "Олег":1983}
+print(my_dict)
+print(my_dict["Сергей"])
+print(my_dict.get('Сергей'))
+print(my_dict.get('Василий'))
+my_dict.update({"Коля":1965, "Саша": 2005})
+print(my_dict)
+my_dict.pop("Юра")
+print(my_dict)
+my_set = {1,2,3,4,5,5,4,3,2,1,"appl", 3.14}
+print(my_set)
+my_set.add("Илья")
+my_set.add(2004)
+print(my_set)
+my_set.remove("appl")
+print(my_set)
+my_set.discard(2004)
+print(my_set)
